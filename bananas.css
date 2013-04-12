@@ -1,0 +1,17 @@
+.banana {
+    display: block;
+    position: fixed;
+    background-image: url(banana.gif);
+    width: 32px;
+    height: 32px;
+    top: -60px;
+    left: 30px;
+
+    -webkit-transform: rotate(0deg);
+    transition: all 4s linear, top 4s linear;
+}
+
+.banana-fall {
+    top: 2000px;
+    -webkit-transform: rotate(3600deg);
+}
