@@ -1,17 +1,25 @@
 .banana {
-    display: block;
-    position: fixed;
-    background-image: url(banana.gif);
-    width: 32px;
-    height: 32px;
-    top: -60px;
-    left: 30px;
-
-    -webkit-transform: rotate(0deg);
-    transition: all 4s linear, top 4s linear;
-}
+  display: block;
+  position: fixed;
+  background-image: url(banana.gif);
+  width: 32px;
+  height: 32px;
+  top: -60px;
+  left: 30px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 4s linear, top 4s linear;
+  -moz-transition: all 4s linear, top 4s linear;
+  -o-transition: all 4s linear, top 4s linear;
+  transition: all 4s linear, top 4s linear; }
 
 .banana-fall {
-    top: 2000px;
-    -webkit-transform: rotate(3600deg);
-}
+  top: 2000px;
+  -webkit-transform: rotate(3600deg);
+  -moz-transform: rotate(3600deg);
+  -ms-transform: rotate(3600deg);
+  -o-transform: rotate(3600deg);
+  transform: rotate(3600deg); }
